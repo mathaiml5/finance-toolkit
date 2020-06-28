@@ -1,12 +1,12 @@
 ## finance-toolkit
-This project is a repository for finance toolkit using Linear Algebra and Octave that I created for Linear Algebra class
+This project is a repository for finance toolkit using Linear Algebra and Octave that I created for my Post-AP Linear Algebra class
 
  # Portfolio Optimization Using Linear Algebra
  ### by Vishak Srikanth
  
  This toolkit uses Linear Algebra to provide solutions for 3 common scenarios for portfolio optimization
  
- Given a number of securities with varied returns a_1, a_2,..., a_n investors are interested in determing how they can maximize returns while minimizng risk by constructing a blend of securities that can provide them good returns at acceptable risk. 
+ Given a number of securities with varied returns a<sub>1</sub>, a<sub>2</sub>,..., a<sub>n</sub> investors are interested in determing how they can maximize returns while minimizng risk by constructing a blend of securities that can provide them good returns at acceptable risk. 
  
  The Efficient frontier describes the maximum possible expected return for any given amount of risk from the portfolio of assets Or alternatively, the minimum amount of risk that one must accept for any given amount of expected return. 
  
@@ -42,7 +42,7 @@ The securities individual returns computed between two dates is used to determin
 
 ## Portfolio Theory
 
-Now comes portfolio computations as outlined in the book Modern Portfolio Theory and Investment Analysis by Elton, E., M. Gruber, S. Brown, and W. Goetzmann (2009- John Wiley & Sons
+Now comes portfolio computations as outlined in the book Modern Portfolio Theory and Investment Analysis by Elton, E., M. Gruber, S. Brown, and W. Goetzmann (2009- John Wiley & Sons)
 
 The variance-covariance matrix of the assets and their expected returns are key inputs to design the portfolio
 
@@ -50,11 +50,13 @@ The variance-covariance matrix (Σ) is the symmetric matrix sigma below and the 
 
 The program calculates the weights that will yield a portfolio with minimum risk.
 
-The risk of the portfolio is related to the standard deviation and it can be calculated as follows
+The risk of the portfolio is related to the standard deviation and it can be calculated as follows:
 
 So we now have to minimize:
 
-Portfolio variance σ = √X'TΣX subject to: ∑iXi =1, where X is a vector of weights in portfolio
+Portfolio variance σ = √X'TΣX subject to: ∑<sub>i</sub>X<sub>i</sub> =1, 
+
+where X is a vector of weights in portfolio
  
 The expected return of the portfolio is given by w = X'(zbar)
 
