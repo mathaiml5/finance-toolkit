@@ -2,7 +2,7 @@
 This project is a repository for finance toolkit using Linear Algebra and Octave that I created for my Post-AP Linear Algebra class
 
  # Portfolio Optimization Using Linear Algebra
- ### by Vishak Srikanth
+
  
  This toolkit uses Linear Algebra to provide solutions for 3 common scenarios for portfolio optimization
  
